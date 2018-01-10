@@ -27,7 +27,7 @@ function urbanDictionaryScrapper (jsonBody) {
     ans.definition = json.list.map((val) => { return val.definition }).slice(0, 3)
     ans.source = 'http://urbandictionary.com'
   } else {
-    ans = {'statusCode': 403, 'message': 'check the spelling again', 'source': 'http://urbandictionary.com'}
+    ans = {'statusCode': 404, 'message': 'check the spelling again', 'source': 'http://urbandictionary.com'}
   }
   return ans
 }
