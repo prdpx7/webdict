@@ -55,3 +55,5 @@ webdict('urbandictionary', 'thisworddoesnotexistinanydictionary')
         */
     });
 ```
+## Related
+* [webdict-cli](https://github.com/zuck007/webdict-cli) - Command line tool using this package.
