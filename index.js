@@ -15,8 +15,7 @@ function getURL(site, word) {
 }
 
 function isWord(val) {
-  if (val === '') return false
-  return true
+  return val !== ''
 }
 
 function stripping(val) {
