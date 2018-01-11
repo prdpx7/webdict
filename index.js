@@ -30,7 +30,7 @@ function urbanDictionaryScrapper(jsonBody) {
       statusCode: '200',
       message: 'success',
       type: 'Unknown',
-      definition: json.list.map(({definition}) => definition).slice(0, 3),
+      definition: json.list.map(item => item.definition).slice(0, 3),
       source: 'http://urbandictionary.com'
     }
   }
