@@ -72,8 +72,8 @@ function dictionaryScrapper(htmlBody) {
 
 const webdict = (site, word) =>
   got(getURL(site, word.toLowerCase()))
-    .then(({body}) =>
-      (site === 'dictionary' ? dictionaryScrapper : urbanDictionaryScrapper)(body)
+    .then(response =>
+      (site === 'dictionary' ? dictionaryScrapper : urbanDictionaryScrapper)(response.body)
     )
     .catch(err =>
       ({
