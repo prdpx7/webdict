@@ -4,7 +4,7 @@
   "description": "Fetch definition/meaning of words from dictionary.com and urbandictionary",
   "main": "index.js",
   "scripts": {
-    "test": "standard && ava"
+    "test": "./node_modules/eslint/bin/eslint.js *.js && ava"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,10 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "standard": "^10.0.2"
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
   }
 }
