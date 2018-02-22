@@ -1,6 +1,6 @@
 {
   "name": "webdict",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Fetch definition/meaning of words from dictionary.com and urbandictionary",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zuck007/Webdict.git"
+    "url": "git+https://github.com/prdpx7/Webdict.git"
   },
   "keywords": [
     "dictionary",
     "web-scrapping",
     "definition"
   ],
-  "author": "Pradeep Khileri <pradeepchoudhary009@gmail.com> (https://zuck007.github.io)",
+  "author": "Pradeep Khileri <pradeepchoudhary009@gmail.com> (https://prdpx7.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zuck007/Webdict/issues"
+    "url": "https://github.com/prdpx7/Webdict/issues"
   },
-  "homepage": "https://github.com/zuck007/Webdict#readme",
+  "homepage": "https://github.com/prdpx7/Webdict#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
     "got": "^6.7.1"
