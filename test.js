@@ -7,7 +7,7 @@ test('searching `limerance` in urbandictionary', async (t) => {
   t.is(data.definition[0], ans[0])
 })
 
-test('searching `aWordwhichdoesnotexistindictionary` in dictionary', async (t) => {
-  const data = await webdict('dictionary', 'aWordwhichdoesnotexistindictionary')
-  t.is(data.statusCode, 404)
+test('searching `kafkaesque` in dictionary', async (t) => {
+  const data = await webdict('dictionary', 'kafkaesque')
+  t.is(data.statusCode, '200')
 })
