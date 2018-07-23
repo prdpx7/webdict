@@ -1,6 +1,6 @@
 {
   "name": "webdict",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Fetch definition/meaning of words from dictionary.com and urbandictionary",
   "main": "index.js",
   "scripts": {

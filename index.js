@@ -24,8 +24,8 @@ function stripping(val) {
 
 function urbanDictionaryScrapper(jsonBody) {
   const json = JSON.parse(jsonBody)
-
-  if (json.result_type === 'exact') {
+  // console.log(json)
+  if (json.list.length > 0) {
     return {
       statusCode: '200',
       message: 'success',
